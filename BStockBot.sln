@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BStockBot.Api", "BStockBot.Api\BStockBot.Api.csproj", "{E0EF76C0-4288-42D4-830B-5A73D9220BD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BStockBot.Worker", "BStockBot.Worker\BStockBot.Worker.csproj", "{6540E566-359B-45EF-84C5-056E0A9A37B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0EF76C0-4288-42D4-830B-5A73D9220BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EF76C0-4288-42D4-830B-5A73D9220BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EF76C0-4288-42D4-830B-5A73D9220BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EF76C0-4288-42D4-830B-5A73D9220BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6540E566-359B-45EF-84C5-056E0A9A37B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6540E566-359B-45EF-84C5-056E0A9A37B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6540E566-359B-45EF-84C5-056E0A9A37B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6540E566-359B-45EF-84C5-056E0A9A37B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B917839-46EF-4847-BB35-1C4D25347816}
+	EndGlobalSection
+EndGlobal

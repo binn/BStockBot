@@ -1,0 +1,23 @@
+services:
+  api:
+    image: registry.digitalocean.com/angelcellular/bstockbot-api
+    restart: always
+    environment:
+      - Endpoint=https://script.google.com/macros/s/AKfycbyAl-SuwL4uNHsJXbb4Kbf2MrNMspHVRaa-mB5P_6ELilQqXUB0EFbwonDOt3QUW2o/exec
+      - TZ=America/Chicago
+    ports:
+      - "3776:80"
+  
+  worker-auction-list:
+    image: registry.digitalocean.com/angelcellular/bstockbot-worker
+    restart: 'no'
+    environment:
+      - Endpoint=http://api
+      - Mode=AuctionList
+    
+  worker-closing-prices:
+    image: registry.digitalocean.com/angelcellular/bstockbot-worker
+    restart: always
+    environment:
+      - Endpoint=http://api
+      - Mode=ClosingPrices

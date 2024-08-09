@@ -1,0 +1,2 @@
+30      0       *       *       3,5     curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"Running Auction List Bot\"}" https://discord.com/api/webhooks/1126983664232824864/saU
+30      0       *       *       3,5     docker start bstockbot-worker-auction-list-1

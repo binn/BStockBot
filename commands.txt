@@ -1,0 +1,5 @@
+docker build -t registry.digitalocean.com/angelcellular/bstockbot-api -f .\BStockBot.Api\Dockerfile . 
+docker push registry.digitalocean.com/angelcellular/bstockbot-api
+
+docker build -t registry.digitalocean.com/angelcellular/bstockbot-worker -f .\BStockBot.Worker\Dockerfile . 
+docker push registry.digitalocean.com/angelcellular/bstockbot-worker
